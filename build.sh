@@ -6,4 +6,3 @@ set -e
 GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -s -n 0 -a AARCH64 -t GCC5 -p TroikaPkg/TroikaPkg.dsc
 gzip -c < workspace/Build/TroikaPkg/DEBUG_GCC5/FV/TROIKAPKG_UEFI.fd >uefi_image
 cat troika.dtb >>uefi_image
-abootimg --create uefi.img -k uefi_image -r ramdisk-null -f bootimg.cfg
