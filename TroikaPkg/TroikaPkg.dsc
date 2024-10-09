@@ -103,7 +103,7 @@ OrderedCollectionLib|MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrd
 [PcdsFixedAtBuild.common]
   gEfiMdePkgTokenSpaceGuid.PcdDefaultTerminalType|4
 
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"Bad Dodo"
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"Dodo vi-C"
 
   # System Memory (4GB)
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
@@ -146,7 +146,7 @@ OrderedCollectionLib|MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrd
   #
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
 
-  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x148B0000
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xed000000
   gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
   gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2520
 
